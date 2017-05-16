@@ -3,8 +3,8 @@ backend:
   repo: owenhoskins/phenomic-netlify-cms # replace by your repo
   branch: master # replace if you want netlify-cms publish on a different branch
 
-public_folder: "content" # the same as your phenomic.source in your package.json
-media_folder: "assets/uploads/" # the same as your phenomic.assets in your package.json
+public_folder: "assets/uploads" # The src attribute for uploaded media will begin with /assets/uploads
+media_folder: "content/assets/uploads" # Media files will be stored in the repo under content/assets/uploads
 
 # consider using "content/assets/uploads"
 
@@ -20,7 +20,7 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Cover", name: "cover", widget: "image", optional: true}
       - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Layout", name: "layout", widget: "string", default: "Post"}
+      - {label: "Layout", name: "layout", widget: "hidden", default: "Post"}
       - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD"}
   - name: "settings"
     label: "Settings"

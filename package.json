@@ -9,6 +9,7 @@
     "lint:css": "stylelint \"src/**/*.css\"",
     "lint": "npm-run-all --parallel lint:*",
     "start": "phenomic start",
+    "prebuild": "",
     "build": "phenomic build",
     "pretest": "npm run lint",
     "test": "npm run build"
