@@ -9,5 +9,4 @@ The FAÇON wine glass is the result of a unique collaboration with product desig
 The glass is made from high quality borosilicate glass and will be available in limited quantities as part of the upcoming DROP Vol. 01 [Kickstarter campaign(https://www.kickstarter.com/projects/1820672264/drop-vol-01)
 
 
-![Facon 1 Amosfricke](/content/Facon_1_AmosFricke_1453x1800px1-833x625.jpeg)
-
+![Amos Fricke](/content/Facon_1_AmosFricke_1453x1800px1-833x625.jpeg)
